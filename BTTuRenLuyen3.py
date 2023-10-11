@@ -35,3 +35,51 @@ s = 0
 for i in range(1, n+1):
     s = sqrt(2 + s)
 print("S =", s)
+
+# Câu 5: Vẽ 4 hình dưới đây, dùng sleep để xuất hiện từng hình sau 5s
+from time import sleep
+def h1(n):
+    for i in range(1-n, n):
+        for j in range(1-n, n):
+            if i == 0 or j == 0 or (i*j < 0 and abs(i-j) <= n-1):
+                print("* ", end='')
+            else:
+                print("  ", end='')
+        print()
+
+def h2(n):
+    for i in range(1-n, n):
+        for j in range(1-n, n):
+            if i == 0 or j == 0 or abs(i-j) == n-1:
+                print("* ", end='')
+            else:
+                print("  ", end='')
+        print()
+def h3(n):
+    for i in range(1-n, n):
+        for j in range(1-n, n):
+            if j == 0 or (i*j < 0 and abs(i) >= abs(j)):
+                print("* ", end='')
+            else:
+                print("  ", end='')
+        print()
+def h4(n):
+    for i in range(1-n, n):
+        for j in range(1-n, n):
+            if j == 0 or i*j < 0 and (i+j == 0 or abs(i) == n-1):
+                print("* ", end='')
+            else:
+                print("  ", end='')
+        print()
+def callH(h,n):
+    print("-"*25, "Start", "-"*25)
+    h(n)
+    print("-"*25, "End", "-"*25)
+    sleep(5)
+
+n = int(input("Nhập N: "))
+
+callH(h1,n)
+callH(h2,n)
+callH(h3,n)
+callH(h4,n)
