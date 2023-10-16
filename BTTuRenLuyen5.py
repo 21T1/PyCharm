@@ -50,7 +50,7 @@ def problem2():
         """Count the number of vowels in string"""
         count = 0
         for i in range(len(s)):
-            if isVowel(s[i]):
+            if isVowel(s[i].lower()):
                 count += 1
         return count
 
