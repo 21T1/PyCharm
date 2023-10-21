@@ -1,0 +1,4 @@
+Viết phần mềm quản lý sản phẩm
+- Mỗi danh mục có: mã, tên; Một danh mục có nhiều sản phẩm
+- Mỗi sản phẩm có: mã, tên, đơn giá; Mỗi sản phẩm thuộc về 1 danh mục
+- Cho phép: lưu mới, sửa, xóa, tìm kiếm, sắp xếp, lưu và đọc text file
