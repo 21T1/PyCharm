@@ -1,0 +1,6 @@
+a) Viết hàm cho phép lưu tập tin dưới dạng text file,
+yêu cầu khởi tạo là 10 dòng,
+mỗi dòng gồm 10 số ngẫu nhiên cách nhau bởi dấu ;
+
+b) Viết hàm cho phéo đọc tập tin từ câu a,
+xuất ra tổng giá trị của các phần tử trên mỗi dòng
