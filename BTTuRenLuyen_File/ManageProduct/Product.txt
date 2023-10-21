@@ -1,0 +1,10 @@
+P01,Hộp đựng bút lông 3 chiếc,45000,C01
+P02,Bút lông đoản phong toán đầu cổ vận,110000,C01
+P03,Bút lông thư pháp kiêm hào Chu Tước,90000,C01
+P04,Bút viết thư pháp ngòi mềm Baoke S7 - S8,35000,C02
+P05,Bút viết thư pháp nét thanh đậm Sipa,30000,C02
+P06,Bát sứ đựng nước hoa sen,200000,C03
+P07,Nghiên đá đựng mực La Văn Nghiên,50000,C03
+P08,Nghiên Rồng (10x3.5cm),90000,C03
+P09,Màu viết thư pháp,35000,C04
+P10,Mực viết thư pháp Nhất Đắc,110000,C04
