@@ -1,0 +1,4 @@
+Viết phần mềm Quản Lý Sinh Viên
+- Mỗi một lớp có: mã lớp, tên; một lớp có nhiều SV
+- Mỗi SV có: mã SV, tên, năm sinh; mỗi SV thuộc về một lớp
+- Cho phép: lưu mới, sửa, xóa, tìm kiếm, sắp xếp, lưu và đọc file
